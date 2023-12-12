@@ -1,0 +1,43 @@
+1). Unary Operators:
+    Definition: Unary operators are operators that work with a single operand.
+
+    Example -
+        let num = 5;
+
+        // Unary Negation (changes the sign)
+        let negatedNum = -num;  // negatedNum is now -5
+
+        // Increment (pre-increment)
+        let incrementedNum = ++num;  // num is now 6, incrementedNum is 6
+
+        // Decrement (post-decrement)
+        let decrementedNum = num--;  // num is now 5, decrementedNum is 6
+
+2). Binary Operators:
+    Definition: Binary operators are operators that work with two operands.
+
+    Example -
+        let a = 10;
+        let b = 5;
+
+        // Addition
+        let sum = a + b;  // sum is 15
+
+        // Multiplication
+        let product = a * b;  // product is 50
+
+        // Logical AND
+        let result = (a > 5) && (b < 10);  // result is true
+
+3). Ternary Operator:
+    Definition: The ternary operator is a shorthand way of writing an if-else statement. It works with three operands.
+
+    Syntax - condition ? expr1 : expr2;
+
+    Example -
+        let age = 20;
+
+        // Ternary operator to determine status
+        let status = (age >= 18) ? "Adult" : "Minor";
+
+    In the ternary operator example, if the condition (age >= 18) is true, the value of status will be "Adult"; otherwise, it will be "Minor."

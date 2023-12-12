@@ -1,0 +1,13 @@
+Variables are used to store and manage data in a program. They provide a way to reference and manipulate values, making code more flexible and dynamic. The purpose of declaring variables is to reserve a memory location to store a value and to assign a name (identifier) to that location. This enables developers to refer to and modify the stored value throughout the program.
+
+Example -
+    Declaration and initialization -
+        let age; // Variable declaration without initialization
+         or
+        let age = 22; // Variable declaration with initialization
+
+    Reassignment -
+        let age = 22;
+        age = age + 1;
+
+

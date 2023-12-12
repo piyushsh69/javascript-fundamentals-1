@@ -1,0 +1,81 @@
+Operators in JavaScript can be categorized based on their functionality. Here are some common categories along with examples for each -
+
+1). Arithmetic Operators:
+    Perform mathematical calculations on numeric values.
+
+    Example -
+        let a = 5;
+        let b = 3;
+
+        let sum = a + b;      // Addition
+        let difference = a - b; // Subtraction
+        let product = a * b;   // Multiplication
+        let quotient = a / b;  // Division
+        let remainder = a % b; // Modulus (remainder after division)
+
+2). Comparison Operators:
+    Compare two values and return a boolean result.
+
+    Example -
+        let x = 10;
+        let y = 5;
+
+        console.log(x > y);   // Greater than
+        console.log(x < y);   // Less than
+        console.log(x >= y);  // Greater than or equal to
+        console.log(x <= y);  // Less than or equal to
+        console.log(x === y); // Equal to
+        console.log(x !== y); // Not equal to
+
+3). Logical Operators:
+    Combine or manipulate boolean values.
+
+    Example -
+        let isTrue = true;
+        let isFalse = false;
+
+        console.log(isTrue && isFalse); // Logical AND
+        console.log(isTrue || isFalse); // Logical OR
+        console.log(!isTrue);           // Logical NOT
+
+4). Assignment Operators:
+    Assign values to variables.
+
+    Example -
+        let a = 10;
+        let b = 5;
+
+        a += b; // Equivalent to: a = a + b;
+
+5). Unary Operators:
+    Operate on a single operand.
+
+    Example -
+        let num = 5;
+
+        console.log(-num);   // Unary negation (changes the sign)
+        console.log(++num);  // Increment by 1 (pre-increment)
+        console.log(num++);  // Increment by 1 (post-increment)
+        console.log(--num);  // Decrement by 1 (pre-decrement)
+        console.log(num--);  // Decrement by 1 (post-decrement)
+
+6). Conditional (Ternary) Operator:
+    A shorthand way of writing an if-else statement.
+
+    Example -
+        let age = 20;
+        let status = (age >= 18) ? "Adult" : "Minor";
+
+7). Bitwise Operators:
+    Perform bitwise operations on integer values.
+
+    Example -
+        let a = 5;  // Binary: 0101
+        let b = 3;  // Binary: 0011
+
+        console.log(a & b);  // Bitwise AND (0001)
+        console.log(a | b);  // Bitwise OR  (0111)
+        console.log(a ^ b);  // Bitwise XOR (0110)
+        console.log(~a);      // Bitwise NOT (inverts bits)
+        console.log(a << 1);  // Left shift by 1 (shifts bits to the left)
+        console.log(a >> 1);  // Right shift by 1 (shifts bits to the right)
